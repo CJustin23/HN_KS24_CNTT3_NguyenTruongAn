@@ -53,4 +53,4 @@ FROM Student;
 -- DELETE
 DELETE FROM Course
 WHERE course_id = 101;
--- Hệ thông báo lỗi đã xóa thành công course_id = 101 
+-- Hệ thông báo lỗi xóa không thành công course_id=101 vì course_id=101 có trong bảng Enrollment nữa
